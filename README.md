@@ -9,11 +9,11 @@ The SAP architecture consists of 10 modules and one bus:
 
 • PC (program counter) with inputs Cp, clock, reset, Ep;
 
-• Input and REM (Memory Address Register) with inputs LM, clock;
+• Input and MAR (Memory Address Register) with inputs LM, clock;
 
 • RAM (Random Access Memory) with CE input and the address that comes from REM;
 
-• RI (Instruction register) with LI, clock, reset, EI inputs;
+• IR (Instruction register) with LI, clock, reset, EI inputs;
 
 • Accumulator with LA, clock and reset inputs;
 
